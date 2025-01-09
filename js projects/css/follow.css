@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+}
+.card{
+    height: 350px;
+    width: 250px;
+    background-color:white;
+    border-radius: 10px;
+    padding: 0px;
+    text-align: center;
+    line-height: 10px;
+    justify-content: center;
+}
+.card img{
+    width: 200px;
+    height: 140px;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: center;
+}
+.card h2{
+    font-size: 20px;
+    margin: 20px 0;
+}
+.card h6{
+    font-size: 12px;
+    color: red;
+    margin-top: 15px;
+}
+button{
+    background-color: rgb(37, 72, 135);
+    color: white;
+    border: none;
+    height: 30px;
+    width: 80px;
+    border-radius:10px ;
+    padding: 8px;
+    cursor: pointer;
+}
+.btn-container{
+    display: flex;
+    gap: 1rem;
+    padding: 20px;
+    justify-content: center;
+}
+.remove{
+    background-color: gray;
+    color:white;
+    font-weight: 500;
+    font-size: 15px;
+}
+.add{
+    font-weight: 500;
+    font-size: 13px;
+}
+#msg{
+    font-size: 15px;
+}
