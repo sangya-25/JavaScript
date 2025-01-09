@@ -1,0 +1,27 @@
+body{
+    background-color: pink;
+    background-size: cover;
+}
+.sec_div{
+    color: rgb(62, 17, 17);
+}
+button{
+    background-color: rgb(74, 57, 5);
+    height: 40px;
+    width: 70px;
+    font-size: large;
+}
+.div_class{
+    background-color: black;
+    color: white;
+    height: 70px;
+}
+.pTag{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: white;
+    background-color: red;
+}
+.p2Tag{
+    background-color: palevioletred;
+}
